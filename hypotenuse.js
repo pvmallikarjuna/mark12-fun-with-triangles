@@ -9,7 +9,7 @@ function calcSquareOf(a, b) {
 function calcHypotenuse() {
   const hypo = Math.sqrt(
     calcSquareOf(Number(sides[0].value), Number(sides[1].value))
-  );
+  ).toFixed(2);
   outputEl.innerText = "Length of Hypotenuse is : "+ hypo;
 }
 

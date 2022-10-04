@@ -1,28 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 body {
-  font-family: 'Montserrat', sans-serif;
- 
+  font-family: "Montserrat", sans-serif;
   margin: auto;
+  background-color: azure;
  
-  background-color:azure;
 }
 
+
+
 .triangle-container{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  input {
+    font-size: large;
+    display: block;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem auto;
+    border: 2px solid #0369a1;
+    
+    width: 100%;
+    max-width: 325px;
+  }
 
 .navigation {
   background-color: #0369a1;
   color: white;
   padding: 1rem;
-  width: 100%;
-  
 }
-
-
 
 .list-item-inline {
   display: inline;
@@ -55,38 +64,23 @@ body {
   margin-bottom: 1rem;
 }
 
-input {
-  font-size: large;
-  display: block;
-  outline: #fff;
-  padding: 0.6rem 1rem;
-  margin: 1rem auto;
-  border: 2px solid #0369a1;
-  
-  width: 100%;
-  max-width: 325px;
-}
-
-button{
+button {
   padding: 1rem;
   margin-left: 34%;
 
   display: flex;
-  justify-content: center; 
-width: 30%;
+  justify-content: center;
+  width: 30%;
   background-color: rgb(112, 235, 194);
   font-size: large;
   font-weight: bold;
   cursor: pointer;
 }
 
-#output{
+#output {
   margin: 1rem;
-  padding: 4rem;
+  padding: 2rem;
+  text-align: center;
   font-size: x-large;
-}
-
-#is-triangle-btn{
-  margin-top: 2rem;
 }
 

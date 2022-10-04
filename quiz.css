@@ -1,31 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 body {
-  font-family: 'Montserrat', sans-serif;
- 
+  font-family: "Montserrat", sans-serif;
   margin: auto;
- 
-  background-color:azure;
-  
-  
-}
-h1, .quiz-form{
-    text-align: center;
-    padding: 1rem;
+  background-color: azure;
 }
 
-.question-container{
-    padding: 0.8rem;
+h1,
+.quiz-form {
+  text-align: center;
+  padding: 1rem;
 }
 
+.question-container {
+  padding: 0.8rem;
+}
 
 .navigation {
   background-color: #0369a1;
   color: white;
   padding: 1rem;
-  
 }
-
 
 .list-item-inline {
   display: inline;
@@ -58,27 +53,23 @@ h1, .quiz-form{
   margin-bottom: 1rem;
 }
 
-
-button{
+button {
   padding: 1rem;
   margin-left: 34%;
 
   display: flex;
-  justify-content: center; 
-width: 30%;
+  justify-content: center;
+  width: 30%;
   background-color: rgb(112, 235, 194);
   font-size: large;
   font-weight: bold;
   cursor: pointer;
 }
 
-#output{
+#output {
   margin: 1rem;
   padding: 2rem;
   text-align: center;
   font-size: x-large;
 }
 
-#is-triangle-btn{
-  margin-top: 2rem;
-}
