@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+ 
+  margin: auto;
+ 
+  background-color:azure;
+  
+  
+}
+h1, .quiz-form{
+    text-align: center;
+    padding: 1rem;
+}
+
+.question-container{
+    padding: 0.8rem;
+}
+
+
+.navigation {
+  background-color: #0369a1;
+  color: white;
+  padding: 1rem;
+  
+}
+
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.navigation .link {
+  color: white;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+.list-non-bullet {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+button{
+  padding: 1rem;
+  margin-left: 34%;
+
+  display: flex;
+  justify-content: center; 
+width: 30%;
+  background-color: rgb(112, 235, 194);
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#output{
+  margin: 1rem;
+  padding: 2rem;
+  text-align: center;
+  font-size: x-large;
+}
+
+#is-triangle-btn{
+  margin-top: 2rem;
+}

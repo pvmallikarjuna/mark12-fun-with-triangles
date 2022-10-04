@@ -5,9 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Triangle Quiz</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="quiz.css">
   </head>
   <body>
+    <nav class="navigation container">
+      <div class="nav-brand">Fun With Triangles</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link " href="index.html">isTriangle</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active" href="quiz.html">Quiz</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="hypotenuse.html">Hypotenuse</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="area.html">Area of Triangle</a>
+        </li>
+      </ul>
+    </nav>
+
     <h1>Triangle Quiz</h1>
     <form action="" class="quiz-form">
       <div class="question-container">
@@ -30,6 +48,27 @@
         <label><input type="radio" name="question2" value="Obtuse" />Obtuse</label>
         <label><input type="radio" name="question2" value="Right Angled" />Right Angled</label>
       </div>
+
+      <div class="question-container">
+        <p>
+         What is the sum of angles of a triangle?
+        </p>
+
+        <label><input type="radio" name="question3" value="180" />180</label>
+        <label><input type="radio" name="question3" value="360" />360</label>
+        <label><input type="radio" name="question3" value="270" />270</label>
+      </div>
+
+      <div class="question-container">
+        <p>
+         How many sides are there in a triangle?
+        </p>
+
+        <label><input type="radio" name="question4" value="4" />4</label>
+        <label><input type="radio" name="question4" value="3" />3</label>
+        <label><input type="radio" name="question4" value="6" />6</label>
+      </div>
+
     </form>
     <button id="submit-answer-btn">Submit Answers</button>
     <div id="output"></div>
