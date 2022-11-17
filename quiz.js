@@ -3,7 +3,7 @@ const outputEl = document.querySelector("#output");
 
 const quizForm = document.querySelector(".quiz-form");
 
-const correctAnswers = ["45°", "Right Angled", "180", "3"];
+const correctAnswers = ["45°", "Right Angled", "180", "3", "right", "one right angle", "12, 16, 20", "a+b+c", "no", "45"];
 
 function calculateScore() {
   let score = 0;
